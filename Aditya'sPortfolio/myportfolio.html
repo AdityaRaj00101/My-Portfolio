@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya's Portfolio</title>
+    <link rel="stylesheet" href="pfstyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Aditya's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="myportfolio.html">Home</a></li>
+            <li class="dropdown">
+              <a href="#about-me" class="dropbtn">About Me</a>
+            </li>
+            <li class="dropdown">
+              <a href="#education" class="dropbtn">Education</a>
+            <li class="dropdown">
+              <a href="#projects" class="dropbtn">Projects</a>
+            </li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" id="contact-me" class="dropbtn">Contact Me</a>
+              <div class="dropdown-content">
+                <a href="mailto:adityarajsahu552@gmail.com">Email: adityarajsahu552@gamil.com</a>
+                <a href="tel:8840895290" onclick="trackPixel()>+1">Phone Number: 8840895290</a>
+                <a href="https://www.instagram.com/creative_nature57/" target="_blank">Instagram</a>
+                <a href="https://github.com/AdityaRaj00101" target="_blank">GitHub</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="firstSection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Aditya</span>
+          <div>and I am a passionate</div>
+          <!-- here we add js for the animation using Typed.js CDN -->
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="resume.pdf" class="btn1" target="_blank">Resume</a>
+            <a href="https://github.com/AdityaRaj00101" class="btn1" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="bg.png" alt="developer">
+        </div>
+      </section>
+      <hr>
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1 id="education">Education</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="bv.png" alt="">
+            <div class="vertical-title">Class 12th (2020-21)</div>
+            <div class="vertical-desc">Completed 12th grade (Science Stream) in 2020 from Childer Senior Secondary School Azamgarh, Uttar Pradesh: Developed a solid foundation in subjects like Physics, Chemistry, Mathematics, and Computer Science.</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="bv.png" alt="">
+            <div class="vertical-title">Diploma (CSE)(2021-23)</div>
+            <div class="vertical-desc">Completed Diploma in Computer Science and Engineering (2021-2023) from Board of Technical Education, Uttar Pradesh: Gained foundational knowledge in programming, data structures, algorithms, and network systems.</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="bv.png" alt="">
+            <div class="vertical-title">B.Tech (CSE) (2023-26)</div>
+            <div class="vertical-desc">Pursuing BTech in Computer Science and Engineering (2023-Present) from Bhagwan Parshuram Institute of Technology, New Delhi: Building advanced knowledge and skills in software development, algorithms, data structures, and network systems, preparing for specialized roles in the tech industry.</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="thirdSection">
+        <h1 id="about-me">About Me</h1>
+        <br>
+        <div class="about">
+          <div class="about-left">
+            <!-- <img src="bg.png" alt="developer"> -->
+          </div>
+          <div class="about-right">
+            <h2 class="about-hi">Hi, I am Aditya</h2>
+            <ul class="about-list">
+              <li>Welcome to my digital space! A fervent web developer and Data Structures and Algorithms (DSA) aficionado, currently pursuing a B.Tech in Computer Science and Engineering from the illustrious Bhagwan Parshuram Institute of Technology, New Delhi.</li>
+              <li><span class="sub-heading">Skills :</span> Proficient in web development technologies like HTML, CSS, JavaScript. Skilled in data structures, algorithms, and problem-solving.</li>
+              <li><span class="sub-heading">Eager to Learn :</span> Continuously exploring new technologies and methodologies to stay at the forefront of the tech industry.</li>
+              <li><span class="sub-heading">Areas of Interest :</span> Deeply interested in web development frameworks, machine learning, artificial intelligence, and cloud computing.</li>
+              <li><span class="sub-heading">Certification & Courses :</span> Actively pursuing online courses and certifications to enhance my skill set and knowledge base</li>
+            </ul>
+            <div class="stickers">
+              <img src="htmlc.png" alt="">
+              <img src="css-3.png" alt="">
+              <img src="jsl.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="forthSection">
+        <h1 id="projects">Projects</h1>
+        <ul class="projects-itmes">
+          <li><span>Weather Forecasting Web Application :</span>
+            Our Weather Forecasting Web Application offers real-time weather updates for any location, harnessing the power of HTML, CSS, and JavaScript. Users can input a city or use geolocation to get current weather conditions, including temperature, humidity, and wind speed. The app fetches data from reliable weather APIs, ensuring accurate and timely information. With a responsive design, the application works seamlessly across all devices</li>
+          <li><span>Age Calculator :</span>
+            Our Age Calculator Web Application is a simple and efficient tool designed to calculate a person's age based on their birthdate. Developed using HTML, CSS, and JavaScript, the app allows users to input their birthdate and instantly receive their age in years, months, and days. The user-friendly interface and responsive design ensure a seamless experience across all devices</li>
+          <li><span>Guess the number game :</span>
+            Our Guess the Number Game Web Application is a fun and engaging game where users have 10 chances to guess a randomly generated number between 0 and 100. Developed using HTML, CSS, and JavaScript, this game provides instant feedback on whether the user's guess is too high, too low, or correct. The intuitive interface and responsive design ensure a seamless experience on any device. Perfect for users of all ages, this game offers a great way to test and improve your guessing skills while having fun.</li>
+          <li>Some other projects are going on and are available on the
+            <a href="https://github.com/AdityaRaj00101/Project" target="_blank" style="text-decoration: underline;">GitHub</a></li>
+        </ul>
+      </section>
+    </main>
+    <hr>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Aditya's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact-me">Contact Me </a></li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li><a href="mailto:adityarajsahu552@gmail.com">Email: adityarajsahu552@gamil.com</a></li>
+            <li><a href="tel:8840895290" onclick="trackPixel()>+1">Phone Number: 8840895290</a></li>
+          </ul>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Aditya's Portfolio | All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="protfolio.js">
+      
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
